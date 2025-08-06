@@ -43,11 +43,11 @@ function createAboutPage() {
     locationBox.appendChild(addressText);
     locationBox.appendChild(addressPhoto);
     
-    contactContainer.appendChild(contactHeader);
-    contactContainer.appendChild(contactBox);
-    contactContainer.appendChild(locationBox);
+    aboutContainer.appendChild(aboutHeader);
+    aboutContainer.appendChild(contactBox);
+    aboutContainer.appendChild(locationBox);
     
-    content.appendChild(contactContainer);
+    content.appendChild(aboutContainer);
 }
 
 export default createAboutPage;

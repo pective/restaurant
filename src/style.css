@@ -18,11 +18,13 @@ header {
 }
 .header-logo {
     font-size: 1.2rem;
+    font-weight: 700;
     color: hsl(19, 43%, 38%);
 }
 nav button {
     border-radius: 5px;
     border: none;
+    border: 1px solid #5c5c5c;
     background-color: hsl(19, 34%, 48%);
     color: white;
     font-size: 1.2rem;

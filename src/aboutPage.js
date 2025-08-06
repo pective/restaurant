@@ -4,11 +4,11 @@ function createAboutPage() {
     const content = document.querySelector("#content");
     content.innerHTML = "";
 
-    const contactContainer = document.createElement("div");
-    contactContainer.classList.add("contact-container");
+    const aboutContainer = document.createElement("div");
+    aboutContainer.classList.add("about-container");
 
-    const contactHeader = document.createElement("h1");
-    contactHeader.textContent = "About";
+    const aboutHeader = document.createElement("h1");
+    aboutHeader.textContent = "About";
 
     const contactBox = document.createElement("div");
     contactBox.classList.add("contact-box");
